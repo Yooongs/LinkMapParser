@@ -6,12 +6,13 @@ parsing ios linkmap file and compare two linkmap file:add,delete,size change.
 1. parsing one linkmap, get size of Different Object files
 2. compare two linkmap, you can know size change and file add or delete
 
-##what u need?
+## what u need?
 
 1. python 2.7
 2. link map file
 
-##Usage
+## Usage
+
 ### parsing one linkmap file
 
 ```
@@ -36,7 +37,9 @@ main.o                                            0.1934kb
 total size:                                       29.9521kb
 
 ```
+
 ### parsing two linkmap file, and compare
+
 ```
 python parselinkmap.py ${linkmap_baseline_path}.txt ${linkmap_target_path}.txt
 ```
